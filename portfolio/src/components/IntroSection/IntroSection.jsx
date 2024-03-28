@@ -10,6 +10,7 @@ const IntroSection = () => {
         <div></div>
         <div className={styles.right_column}>
           <JobAvailability />
+          <div className={styles.faded_gray}></div>
         </div>
         <div>
           <div className={`${styles['name']} ${styles['faded_gray']}`}>I'm Tyler Lo</div>

@@ -8,9 +8,12 @@ function App() {
       <header className="App-header">
         <NavBar />
         <IntroSection />
-        <RecentWork />
-        <Skills />
-        <RecentProject />
+        <div className="two_column">
+          <RecentWork />
+          <Skills />
+          <RecentProject />
+          <RecentProject />
+        </div>
       </header>
     </div>
   );
