@@ -27,8 +27,6 @@ const RecentWork = () => {
       <WorkExperience jobTitle="ServiceNow Developer" date="Nov 23 - Present" company="UCSD ITS"/>
       <WorkExperience jobTitle="Unity UI Developer" date="Aug 23 - Mar 24" company="Cobey Motions"/>
       <WorkExperience jobTitle="FrontEnd Intern" date="Apr 22 - Dec 22" company="Jacobs School of Engineering" />
-
-
     </div>
   )
 }

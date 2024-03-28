@@ -11,8 +11,8 @@ function App() {
         <div className="two_column">
           <RecentWork />
           <Skills />
-          <RecentProject />
-          <RecentProject />
+          <RecentProject Name="LOR Hand Tracker" Description="Front-End"/>
+          <RecentProject Name="VAWT Wind Turbine" Description="Data Lead"/>
         </div>
       </header>
     </div>
