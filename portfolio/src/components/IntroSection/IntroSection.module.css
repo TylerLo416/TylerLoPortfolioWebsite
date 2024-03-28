@@ -1,0 +1,40 @@
+.introsection {
+    background-color: #262626;
+    border-radius: 20px; /* Border radius for rounded corners */
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
+}
+
+.faded_gray {
+    color: #C0C0C0;
+}
+
+.right_column {
+    display:flex;
+    justify-content: flex-end;
+    background-color: #262626;
+}
+
+.name {
+    font-size: 3em;
+}
+
+.button {
+    color: white;
+}
+
+#grayCircle {
+    width: 100px; /*change to use USEEFFECT to get pixel width of JobAvailability later*/
+    height: 100px; /* Adjust circle size as needed */
+    background-color: gray; /* Gray color */
+    border-radius: 50%; /* Make it a circle */
+  }
+
+#whiteButton {
+    background-color: #161616;
+    color: #C0C0C0;
+}
+

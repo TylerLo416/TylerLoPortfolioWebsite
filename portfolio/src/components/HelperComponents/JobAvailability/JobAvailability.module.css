@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #161616;
+    height: 1.3em;
+}
+
+.text {
+    color: #C0C0C0;
+}
+
+.circle {
+    width: 1em; /* Adjust circle size as needed */
+    height: 1em; /* Adjust circle size as needed */
+    background-color: #68C0F1; /* Blue color */
+    border-radius: 50%; /* Make it a circle */
+  }
