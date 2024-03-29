@@ -3,16 +3,20 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     background-color: #1B1B1B;
     border-radius: 20px;
+    padding: 5%;
 }
 
 #header {
     color: #C0C0C0;
+    font-size: 2em;
 }
 
 .workexperience {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-size: 2em;
+    padding: .2em;
 }
 
 .blue_title {
@@ -23,8 +27,22 @@
     color: white;
 }
 
+.jobtitle {
+    padding-bottom: .2em;
+    font-weight: 500;
+    font-size: 1em;
+}
+
 .date_company_color {
     color: #C0C0C0;
+    font-size: .7em;
+}
+
+.company {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    font-size: .7em;
 }
 
 .circle {
@@ -32,6 +50,7 @@
     height: 1em; /* Adjust circle size as needed */
     background-color: #C0C0C0; /* Blue color */
     border-radius: 50%; /* Make it a circle */
+    margin-right: 1em;
 }
 
 .header_container {

@@ -7,10 +7,10 @@ const WorkExperience = ({ jobTitle, date, company, index}) => {
   return (
     <div className={styles.workexperience}>
       <div className={styles.left_column}>
-        <div className={title_color}>{jobTitle}</div>
+        <div className={`${title_color} ${styles.jobtitle}`}>{jobTitle}</div>
         <div className={styles.date_company_color}>{date}</div>
       </div>
-      <div className={styles.date_company_color}>{company}</div>
+      <div className={`${styles.date_company_color} ${styles.company}`}>{company}</div>
     </div>
   )
 }

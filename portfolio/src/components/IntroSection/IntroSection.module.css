@@ -31,7 +31,7 @@
     height: 100px; /* Adjust circle size as needed */
     background-color: #2C2C2C; /* Gray color */
     border-radius: 50%; /* Make it a circle */
-  }
+}
 
 #whiteButton {
     background-color: #161616;
