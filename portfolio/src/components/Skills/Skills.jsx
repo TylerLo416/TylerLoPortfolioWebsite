@@ -1,19 +1,6 @@
 import React from 'react'
 import styles from './Skills.module.css'
 
-const WorkExperience = ({ jobTitle, date, company, index}) => {
-  const title_color = index === 0 ? styles.blue_title : styles.white_title;
-  return (
-    <div className={styles.workexperience}>
-      <div className={styles.left_column}>
-        <div className={title_color}>{jobTitle}</div>
-        <div className={styles.date_company_color}>{date}</div>
-      </div>
-      <div className={styles.date_company_color}>{company}</div>
-    </div>
-  )
-}
-
 const Skill = ({ skillName, proficiency }) => {
 
   const renderDots = () => {

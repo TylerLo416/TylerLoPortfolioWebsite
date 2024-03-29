@@ -1,10 +1,43 @@
 .skills {
     background-color: #1B1B1B;
     border-radius: 20px;
+    padding: 5%;
 
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;/*set this amount to #skills*/
+
+    position: relative;
+    /*background: linear-gradient(200deg, #0092E4 5%, #1B1B1B 100% );*/
+    background-color: #1B1B1B;
+    /*background: linear-gradient(240deg, rgba(0, 146, 228, 0.8) 5%, rgba(27, 27, 27, 1) 30%);*/
+    background-image: linear-gradient(to left bottom, 
+        #1b1b1b, 
+        rgba(44, 45, 58, 0.2), /* Increased opacity */
+        rgba(57, 65, 94, 0.2), /* Increased opacity */
+        rgba(64, 87, 132, 0.2), /* Increased opacity */
+        rgba(64, 87, 148, 0.2), /* Increased opacity */
+        rgba(61, 111, 172, 0.2), /* Increased opacity */
+        rgba(61, 111, 172, 0.2), /* Increased opacity */
+        rgba(61, 111, 172, 0.2), /* Increased opacity */
+        rgba(61, 111, 172, 0.2), /* Increased opacity */
+        rgba(64, 87, 148, 0.2), /* Increased opacity */
+        rgba(57, 65, 94, 0.2), /* Increased opacity */
+        rgba(44, 45, 58, 0.2), /* Increased opacity */
+        #1b1b1b
+    );
+
 }
+
+/*.skills::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(200deg, transparent 80%, rgba(0, 146, 228, 0.5) 100%);
+    z-index: 1; /* Ensure the pseudo-element is behind the content 
+}*/
 
 .skill {
     display: grid;
@@ -12,18 +45,25 @@
 }
 
 .skill_name {
+    display: flex;
+    align-items: center;
+
     color: #68C0F1;
+    font-size: 2em;
 }
 
 .dot_container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    padding-right: 10%;
+    
 }
 
 .dots {
-    width: 1em; /* Adjust circle size as needed */
-    height: 1em; /* Adjust circle size as needed */
+    width: 1.4em; /* Adjust circle size as needed */
+    height: 1.4em; /* Adjust circle size as needed */
     border-radius: 50%; /* Make it a circle */
 }
 
