@@ -6,15 +6,15 @@ import JobAvailability from '../HelperComponents/JobAvailability/JobAvailability
 const IntroSection = () => {
   return (
     <div className={styles.introsection}>
-        <div className={styles.faded_gray}>Software Engineer</div>
+        <div id={styles.softwareengineer} className={styles.faded_gray}>Software Engineer</div>
         <div></div>
         <div className={styles.right_column}>
           <JobAvailability />
           <div className={styles.faded_gray}></div>
         </div>
         <div>
-          <div className={`${styles['name']} ${styles['faded_gray']}`}>I'm Tyler Lo</div>
-          <div className={styles.faded_gray}>I develop Front-End + Full-Stack Applications</div>
+          <div className={`${styles['name']} ${styles['whitetext']}`}>I'm Tyler Lo</div>
+          <div id={styles.description} className={styles.faded_gray}>I develop Front-End + Full-<br/>Stack Applications</div>
           <Button variant="contained" className={styles.button}>Hire Me</Button>
           <Button variant="contained" className={styles.button} id={styles.whiteButton}>Copy Email</Button>
         </div>
