@@ -1,6 +1,7 @@
 .recentproject {
     background-color: #1B1B1B;
     border-radius: 20px;
+    padding: 4%;
 }
 
 .top_columns {
@@ -15,8 +16,18 @@
 
 .name {
     color: #FFFFFF;
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: .3em;
 }
 
-.dates {
+.description {
     color: #C0C0C0;
+    font-size: 1.66em;
+}
+
+.imagecontainer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
