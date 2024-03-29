@@ -1,17 +1,23 @@
+.container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
 .navbar {
-    position: sticky;
-    top: 0;
-    background-color: #262626; /* Adjust styling as needed */
-    z-index: 1000; /* Ensure the navbar stays on top of other content */
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    grid-template-rows: 1fr;
-
-    
-  }
-
+  position: sticky;
+  top: 0;
+  background: #1B1B1B;
+  border: 2px solid #262626;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 30px; /* Adjust the value to control the roundness */
+  z-index: 2;
+  padding: 0 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  grid-template-rows: 1fr;
+}
 
 .button {
   color: white;
