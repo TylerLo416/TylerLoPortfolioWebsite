@@ -1,29 +1,42 @@
-import React from 'react'
+// IntroSection.jsx
+import React from 'react';
 import Button from '@mui/material/Button';
 import styles from './IntroSection.module.css';
 import JobAvailability from '../HelperComponents/JobAvailability/JobAvailability';
+import MarkImage from '../../Assets/Mark.png';
 
 const IntroSection = () => {
   return (
     <div className={styles.introsection}>
-        <div id={styles.softwareengineer} className={styles.faded_gray}>Software Engineer</div>
-        <div></div>
-        <div className={styles.right_column}>
-          <JobAvailability />
-          <div className={styles.faded_gray}></div>
+      <div id={styles.softwareengineer} className={styles.faded_gray}>
+        Software Engineer
+      </div>
+      <div className={styles.right_column}>
+        <JobAvailability />
+        <div className={styles.faded_gray}></div>
+      </div>
+      <div>
+        <div className={`${styles['name']} ${styles['whitetext']}`}>
+          I'm Tyler Lo
         </div>
-        <div>
-          <div className={`${styles['name']} ${styles['whitetext']}`}>I'm Tyler Lo</div>
-          <div id={styles.description} className={styles.faded_gray}>I develop Front-End + Full-<br/>Stack Applications</div>
-          <Button variant="contained" className={styles.button}>Hire Me</Button>
-          <Button variant="contained" className={styles.button} id={styles.whiteButton}>Copy Email</Button>
+        <div id={styles.description} className={styles.faded_gray}>
+          I develop Front-End + Full-<br />
+          Stack Applications
         </div>
-        <div></div>
-        <div className={styles.right_column}>
-          <div id={styles.grayCircle} className={styles.right_column}></div>
+        <Button variant="contained" className={styles.button}>
+          Hire Me
+        </Button>
+        <Button variant="contained" className={styles.button} id={styles.whiteButton}>
+          Copy Email
+        </Button>
+      </div>
+      <div className={styles.grayCircleContainer}>
+        <div id={styles.grayCircle}>
+          <img src={MarkImage} alt='Mark' />
         </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default IntroSection
+export default IntroSection;

@@ -3,8 +3,10 @@
     align-items: center;
     background-color: #161616;
     border: 1px solid #262626;
-    padding-left: .6em;
-    padding-right: .6em;
+    padding-left: .7em;
+    padding-right: .7em;
+    padding-top: .2em;
+    padding-bottom: .2em;
     border-radius: 14px;
     height: 1.3em;
 }
