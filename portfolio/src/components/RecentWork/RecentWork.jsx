@@ -22,11 +22,11 @@ const RecentWork = () => {
         <div className={styles.circle}></div> {/* Blue circle */}
         <div id={styles.header}>RecentWork</div>
       </div>
-      <WorkExperience index={0} jobTitle="Data Engineer" date="Jun 24 - Aug 24" company="CVS"/>
-      <WorkExperience jobTitle="App Developer" date="Mar 24 - Present" company="Center for Energy Research"/>
-      <WorkExperience jobTitle="ServiceNow Developer" date="Nov 23 - Present" company="UCSD ITS"/>
-      <WorkExperience jobTitle="Unity UI Developer" date="Aug 23 - Mar 24" company="Cobey Motions"/>
-      <WorkExperience jobTitle="FrontEnd Intern" date="Apr 22 - Dec 22" company="Jacobs School of Engineering" />
+        <WorkExperience index={0} jobTitle="Data Engineer" date="Jun 24 - Aug 24" company="CVS"/>
+        <WorkExperience jobTitle="App Developer" date="Mar 24 - Present" company="Center for Energy Research"/>
+        <WorkExperience jobTitle="ServiceNow Developer" date="Nov 23 - Present" company="UCSD ITS"/>
+        <WorkExperience jobTitle="Unity UI Developer" date="Aug 23 - Mar 24" company="Cobey Motions"/>
+        <WorkExperience jobTitle="FrontEnd Intern" date="Apr 22 - Dec 22" company="Jacobs School of Engineering" />
     </div>
   )
 }
