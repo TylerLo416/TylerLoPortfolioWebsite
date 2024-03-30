@@ -1,21 +1,22 @@
-import './App.css';
-import Button from '@mui/material/Button';
+import styles from './App.module.css';
 import { NavBar, IntroSection, RecentWork, RecentProject, Skills } from './components';
 import MarkImage from './Assets/Mark.png';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className={styles.app}> {/* Apply padding class */}
+      <div className={styles.appheader}>
         <NavBar />
-        <IntroSection />
-        <div className="two_column">
+        <div className={styles.introsection}>
+          <IntroSection />
+        </div>
+        <div className={styles.twocolumn}>
           <RecentWork />
           <Skills />
           <RecentProject Name="LOR Hand Tracker" Description="Front-End" Picture={MarkImage}/>
           <RecentProject Name="VAWT Wind Turbine" Description="Data Lead" Picture={MarkImage}/>
         </div>
-      </header>
+      </div>
     </div>
   );
 }

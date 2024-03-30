@@ -2,6 +2,7 @@
     background-color: #1B1B1B;
     border-radius: 20px;
     padding: 5%;
+    border: 2px solid #262626;
 
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;/*set this amount to #skills*/

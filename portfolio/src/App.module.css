@@ -5,13 +5,23 @@ body {
     font-family: 'Inter';
 }
 
-
-.App-header {
-  background-color: lightblue;
+.appheader {
+  background-color: #161616;
   min-height: 100vh;
+  padding: 20px;
 }
 
-.two_column {
+.twocolumn {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.introsection {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

@@ -6,6 +6,8 @@
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     grid-template-rows: 1fr 1fr;
+
+    border: 2px solid #262626;
 }
 
 .faded_gray {
