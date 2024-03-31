@@ -1,9 +1,11 @@
-// IntroSection.jsx
 import React from 'react';
 import Button from '@mui/material/Button';
+import ButtonGroup from '@mui/material/ButtonGroup';
+import AddCircleOutlineRoundedIcon from '@mui/icons-material/AddCircleOutlineRounded';
 import styles from './IntroSection.module.css';
 import JobAvailability from '../HelperComponents/JobAvailability/JobAvailability';
 import MarkImage from '../../Assets/Mark.png';
+import ContentCopyRoundedIcon from '@mui/icons-material/ContentCopyRounded';
 
 const IntroSection = () => {
   return (
@@ -23,12 +25,20 @@ const IntroSection = () => {
           I develop Front-End + Full-<br />
           Stack Applications
         </div>
-        <Button variant="contained" className={styles.button}>
-          Hire Me
-        </Button>
-        <Button variant="contained" className={styles.button} id={styles.whiteButton}>
-          Copy Email
-        </Button>
+        <ButtonGroup variant="contained" id={styles.hiremebuttongroup}>
+          <Button className={styles.hireme}>Hire Me</Button>
+            <Button className={`${styles.pluscontainer} ${styles.hireme}`}>
+              <AddCircleOutlineRoundedIcon />
+            </Button>
+        </ButtonGroup>
+        <ButtonGroup variant="contained" id={styles.emailbuttongroup}>
+          <Button variant="contained" className={styles.emailbutton} id={styles.copyemail}>
+            Copy Email
+          </Button>
+          <Button className={styles.emailbutton} id={styles.copybuttoncontainer}> 
+            <ContentCopyRoundedIcon/>
+          </Button>
+        </ButtonGroup>
       </div>
       <div className={styles.grayCircleContainer}>
         <div id={styles.grayCircle}>

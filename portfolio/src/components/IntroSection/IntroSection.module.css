@@ -4,7 +4,7 @@
     border-radius: 20px;
     padding: 3em 2.5em;
     display: grid;
-    grid-template-columns: 5fr 1fr; /* Change to two equal columns */
+    grid-template-columns: 10fr 1fr; /* Change to two equal columns */
     grid-template-rows: 1fr 2fr; /* Change to two equal rows */
     border: 2px solid #262626;
   }
@@ -24,10 +24,6 @@
     font-size: 3em;
   }
   
-  .button {
-    color: white;
-  }
-  
   #grayCircle {
     width: 200px;
     height: 200px;
@@ -39,9 +35,36 @@
     align-items: center;
   }
   
-  #whiteButton {
+  #copyemail {
     background-color: #161616;
     color: #c0c0c0;
+    
+  }
+
+  .emailbutton {
+    background-color: #161616;
+    
+  }
+
+  #copybuttoncontainer {
+    border-left: 2px solid #262626;
+    width: 1em;
+    
+  }
+
+  #emailbuttongroup {
+    margin-left: 1em;
+    border: 1.2px solid #262626;
+    
+  }
+
+  #hiremebuttongroup {
+    border: 1.2px solid #161616;
+    
+  }
+  .hireme {
+    border-left: .1px solid #161616;
+    background-color: #126594;
   }
   
   #softwareengineer {
@@ -62,4 +85,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .pluscontainer {
+    width: 1em;
   }
