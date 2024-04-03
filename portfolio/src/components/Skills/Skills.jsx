@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Skills.module.css'
 
+
 const Skill = ({ skillName, proficiency }) => {
 
   const renderDots = () => {

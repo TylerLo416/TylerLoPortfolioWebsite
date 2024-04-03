@@ -7,6 +7,10 @@ import JobAvailability from '../HelperComponents/JobAvailability/JobAvailability
 import MarkImage from '../../Assets/Mark.png';
 import ContentCopyRoundedIcon from '@mui/icons-material/ContentCopyRounded';
 
+
+
+
+
 const IntroSection = () => {
   return (
     <div className={styles.introsection}>
