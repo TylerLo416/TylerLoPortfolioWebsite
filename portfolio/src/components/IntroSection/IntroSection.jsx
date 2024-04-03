@@ -30,13 +30,17 @@ const IntroSection = () => {
           Stack Applications
         </div>
         <ButtonGroup variant="contained" id={styles.hiremebuttongroup}>
-          <Button className={styles.hireme}>Hire Me</Button>
+          <Button className={styles.hireme} style={{ textTransform: 'none' }}>Hire Me</Button>
             <Button className={`${styles.pluscontainer} ${styles.hireme}`}>
               <AddCircleOutlineRoundedIcon />
             </Button>
         </ButtonGroup>
         <ButtonGroup variant="contained" id={styles.emailbuttongroup}>
-          <Button variant="contained" className={styles.emailbutton} id={styles.copyemail}>
+          <Button 
+            variant="contained" 
+            className={styles.emailbutton} 
+            id={styles.copyemail}
+            style={{ textTransform: 'none' }}>
             Copy Email
           </Button>
           <Button className={styles.emailbutton} id={styles.copybuttoncontainer}> 
