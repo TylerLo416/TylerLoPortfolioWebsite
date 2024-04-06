@@ -7,10 +7,6 @@ import JobAvailability from '../HelperComponents/JobAvailability/JobAvailability
 import MarkImage from '../../Assets/Mark.png';
 import ContentCopyRoundedIcon from '@mui/icons-material/ContentCopyRounded';
 
-
-
-
-
 const IntroSection = () => {
   return (
     <div className={styles.introsection}>
@@ -35,15 +31,26 @@ const IntroSection = () => {
               <AddCircleOutlineRoundedIcon />
             </Button>
         </ButtonGroup>
-        <ButtonGroup variant="contained" id={styles.emailbuttongroup}>
+        <ButtonGroup 
+          variant="text" 
+          id={styles.emailbuttongroup}
+          sx={{
+            '& .MuiButton-root': {
+              borderBottom: '1px solid #161616', // Apply border to the bottom of each button
+            },
+            '& .MuiButton-root:last-child': {
+              borderBottom: 'none', // Remove border from the last button to prevent duplication
+            },
+          }}
+        >
           <Button 
-            variant="contained" 
+            variant="text" 
             className={styles.emailbutton} 
             id={styles.copyemail}
             style={{ textTransform: 'none' }}>
             Copy Email
           </Button>
-          <Button className={styles.emailbutton} id={styles.copybuttoncontainer}> 
+          <Button variant="text" className={styles.emailbutton} id={styles.copybuttoncontainer}> 
             <ContentCopyRoundedIcon/>
           </Button>
         </ButtonGroup>
