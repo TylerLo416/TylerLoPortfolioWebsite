@@ -35,12 +35,7 @@ const IntroSection = () => {
           variant="text" 
           id={styles.emailbuttongroup}
           sx={{
-            '& .MuiButton-root': {
-              borderBottom: '1px solid #161616', // Apply border to the bottom of each button
-            },
-            '& .MuiButton-root:last-child': {
-              borderBottom: 'none', // Remove border from the last button to prevent duplication
-            },
+            
           }}
         >
           <Button 
