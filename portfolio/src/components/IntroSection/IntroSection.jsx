@@ -22,8 +22,7 @@ const IntroSection = () => {
           I'm Tyler Lo
         </div>
         <div id={styles.description} className={styles.faded_gray}>
-          I develop Front-End + Full-<br />
-          Stack Applications
+
         </div>
         <ButtonGroup variant="contained" id={styles.hiremebuttongroup}>
           <Button className={styles.hireme} style={{ textTransform: 'none' }}>Hire Me</Button>
